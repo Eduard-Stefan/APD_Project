@@ -1,0 +1,34 @@
+Birds : 256
+Cats : 128
+Dogs : 128
+Flowers : 128
+Kids : 128
+Rain : 128
+The : 128
+Waves : 128
+Wind : 128
+bark : 128
+bloom : 128
+blows : 128
+crash : 128
+falls : 128
+gently : 128
+happily : 128
+in : 384
+loudly : 128
+meow : 128
+morning : 128
+on : 128
+outside : 128
+play : 128
+rocks : 128
+sets : 128
+sing : 128
+slowly : 128
+softly : 128
+spring : 128
+sun : 128
+trees : 128
+tweet : 128
+
+Execution time: 23492 microseconds (0.023492 milliseconds)

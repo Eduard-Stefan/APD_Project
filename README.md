@@ -12,4 +12,10 @@
 
 ## How to run
 
-It is recommended to run the programs using Visual Studio 2022
+It is recommended to run the programs using Visual Studio 2022.
+
+For the parallel program the followings should be added:
+
+![Screenshot](screenshots/Debug.png)
+
+The number "2" represents the number of processes and can be replaced with another number.

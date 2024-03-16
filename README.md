@@ -7,7 +7,7 @@
 
 ## Installation of MS-MPI
 
-- Download and install both the .msi and .exe files: https://www.microsoft.com/en-us/download/details.aspx?id=105289
+- Download and install both files: https://www.microsoft.com/en-us/download/details.aspx?id=105289
 - After installing, open Command Prompt and type: set MSMPI
 
 ## How to run

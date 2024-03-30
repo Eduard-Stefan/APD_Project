@@ -1,5 +1,5 @@
 #define _CRT_SECURE_NO_WARNINGS
-#define INPUT_FILENAME "input.txt"
+#define INPUT_FILENAME "input_1M.txt"
 #define OUTPUT_FILENAME "output.txt"
 
 #include <iostream>

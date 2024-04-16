@@ -1,6 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
-#define INPUT_FILENAME "input_1M.txt"
-#define OUTPUT_FILENAME "output.txt"
+#define INPUT_FILENAME "/Users/Edi/Documents/GitHub/APD_Project/input/input_1M.txt"
+#define OUTPUT_FILENAME "/Users/Edi/Documents/GitHub/APD_Project/output parallel/output.txt"
 
 #include <iostream>
 #include <fstream>

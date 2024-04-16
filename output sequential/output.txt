@@ -1,0 +1,26 @@
+Birds : 40960
+Cats : 40960
+Dogs : 40960
+Flowers : 40960
+Kids : 40960
+Rain : 40960
+The : 40960
+bark : 40960
+bloom : 40960
+falls : 40960
+happily : 40960
+in : 81920
+loudly : 40960
+meow : 40960
+morning : 40960
+outside : 40960
+play : 40960
+sets : 40960
+slowly : 40960
+softly : 40960
+spring : 40960
+sun : 40960
+the : 40960
+tweet : 40960
+
+Execution time: 4435860 microseconds (4.43586 milliseconds)

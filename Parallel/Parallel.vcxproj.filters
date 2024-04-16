@@ -19,15 +19,4 @@
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
-  <ItemGroup>
-    <Text Include="output.txt" />
-    <Text Include="input_1K.txt" />
-    <Text Include="input_2K.txt" />
-    <Text Include="input_4K.txt" />
-    <Text Include="input_8K.txt" />
-    <Text Include="input_16K.txt" />
-    <Text Include="input_32K.txt" />
-    <Text Include="input_64K.txt" />
-    <Text Include="input_1M.txt" />
-  </ItemGroup>
 </Project>

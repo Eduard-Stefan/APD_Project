@@ -18,11 +18,13 @@ C++
 MS-MPI
 
 ## Description
-   The project contains both the sequential and parallel implementations, and the goal is to compare the execution time.
+   The project contains the sequential and parallel implementations, and the goal is to compare the execution time.
    - The sequencial implementation:
      This algorithm tokenizes the text into words using strtok, and counts the occurrences of each word. It uses a map data structure to store the word counts. The input is read from a text file, and the output is written in a text file too including the execution time.
-   - The parallel implementation:
+   - The MPI parallel implementation:
      This algorithm uses the same strategy as the sequencial one, except the fact that each line of the input text is handled by a process based on their rank and instead of using the map data structure it uses arrays because MPI functions like MPI_Allreduce don't support maps.
+   - The Threads parallel implementation:
+     This implementation uses the same strategy as the MPI one, where first thread is processing the even lines and the second thread is processing the odd lines.
 
 ## Experimental results
 
@@ -42,7 +44,7 @@ MS-MPI
 - 64K words: 321274 microseconds (0.321274 milliseconds)
 - 1M words: 4511677 microseconds (4.51168 milliseconds)
 
-### Parallel execution times:
+### Parallel execution times (MPI):
 
 - 1K words: 21244 microseconds (0.021244 milliseconds)
 - 2K words: 24906 microseconds (0.024906 milliseconds)
@@ -53,7 +55,18 @@ MS-MPI
 - 64K words: 143656 microseconds (0.143656 milliseconds)
 - 1M words: 2095759 microseconds (2.09576 milliseconds)
 
-Conclusions: Beyond 16K words the parallel implementation becomes faster and faster compared to the sequential implementation.
+### Parallel 2 execution times (Threads):
+
+- 1K words: 15547 microseconds (0.015547 milliseconds)
+- 2K words: 21148 microseconds (0.021148 milliseconds)
+- 4K words: 31140 microseconds (0.03114 milliseconds)
+- 8K words: 33475 microseconds (0.033475 milliseconds)
+- 16K words: 48694 microseconds (0.048694 milliseconds)
+- 32K words: 106231 microseconds (0.106231 milliseconds)
+- 64K words: 170897 microseconds (0.170897 milliseconds)
+- 1M words: 3149111 microseconds (3.14911 milliseconds)
+
+Conclusions: Beyond 16K words the parallel implementations becomes faster and faster compared to the sequential implementation. The MPI implementation is slower compared to the Threads implementation until 32K words but beyond 32K words it becomes faster.
 
 ## Installation of MS-MPI
 
@@ -64,7 +77,7 @@ Conclusions: Beyond 16K words the parallel implementation becomes faster and fas
 
 It is recommended to run the programs using Visual Studio 2022.
 
-For the parallel program the followings should be added:
+For the MPI parallel program the followings should be added:
 
 ![Screenshot](screenshots/Debug.png)
 

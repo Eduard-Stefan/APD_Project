@@ -66,6 +66,13 @@ MS-MPI
 - 64K words: 170897 microseconds (0.170897 milliseconds)
 - 1M words: 3149111 microseconds (3.14911 milliseconds)
 
+### Chart:
+- Blue: Sequential
+- Red: MPI
+- Yellow: Threads
+
+![Screenshot](screenshots/Chart.png)
+
 Conclusions: Beyond 16K words the parallel implementations becomes faster and faster compared to the sequential implementation. The MPI implementation is slower compared to the Threads implementation until 32K words but beyond 32K words it becomes faster.
 
 ## Installation of MS-MPI

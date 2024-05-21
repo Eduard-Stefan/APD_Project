@@ -1,5 +1,5 @@
 #define _CRT_SECURE_NO_WARNINGS
-#define INPUT_FILENAME "/Users/Edi/Documents/GitHub/APD_Project/input/input_1M.txt"
+#define INPUT_FILENAME "/Users/Edi/Documents/GitHub/APD_Project/input/input_16M.txt"
 #define OUTPUT_FILENAME "/Users/Edi/Documents/GitHub/APD_Project/output parallel 2/output.txt"
 
 #include <iostream>
@@ -28,7 +28,7 @@ void process_lines(const vector<string>& lines, const char* delimiters, int star
 			int hash = 0;
 			for (int i = 0; word[i] != '\0'; ++i)
 			{
-				hash = (hash * 2 + word[i]) % 997;
+				hash = (hash * 2 + word[i]) % 9973;
 			}
 			++local_word_count[hash];
 			strcpy(local_words[hash], word);

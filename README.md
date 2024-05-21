@@ -43,6 +43,7 @@ MS-MPI
 - 32K words: 156215 microseconds (0.156215 milliseconds)
 - 64K words: 321274 microseconds (0.321274 milliseconds)
 - 1M words: 4511677 microseconds (4.51168 milliseconds)
+- 16M words: 50413066 microseconds (50.4131 milliseconds)
 
 ### Parallel execution times (MPI):
 
@@ -54,6 +55,7 @@ MS-MPI
 - 32K words: 97150 microseconds (0.09715 milliseconds)
 - 64K words: 143656 microseconds (0.143656 milliseconds)
 - 1M words: 2095759 microseconds (2.09576 milliseconds)
+- 16M words: 29707599 microseconds (29.7076 milliseconds)
 
 ### Parallel 2 execution times (Threads):
 
@@ -65,6 +67,7 @@ MS-MPI
 - 32K words: 106231 microseconds (0.106231 milliseconds)
 - 64K words: 170897 microseconds (0.170897 milliseconds)
 - 1M words: 3149111 microseconds (3.14911 milliseconds)
+- 16M words: 42056671 microseconds (42.0567 milliseconds)
 
 ### Chart:
 - Blue: Sequential
